@@ -19,7 +19,7 @@ steps:
 - task: SonarQubePrepare@5
   inputs:
     SonarQube: 'SonarQubeSpeeltuin'
-    scannerMode: 'MSBuild'
+    scannerMode: Other
     projectKey: 'speeltuin_speeltuin_AYs5Elbm8osg6FTmGvw0'
     projectName: 'Speeltuin'
 
